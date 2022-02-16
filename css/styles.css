@@ -1,0 +1,91 @@
+.header {
+    font-size: 50px;
+    text-align: center;
+}
+
+#page {
+    background-color: rgb(229, 226, 226);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: auto;
+}
+
+#food {
+    height: auto;
+}
+
+.flex-container {
+    display:grid;
+    flex:1 1 auto;
+    grid-template-columns: 1fr 3fr;
+}
+
+.left {
+    background-color: rgb(170, 168, 168);
+}
+
+#food, .left {
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.right {
+    margin-left: 0px;
+    padding: 15px 20px;
+    height: 420px;
+    width: auto;
+}
+
+.container {
+    width: auto;
+}
+
+.right, .container {
+    border: 1px solid #FB6938;
+    border-radius: 20px;
+}
+
+.pig {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+ul.pig li {
+    margin: 0 25px 0 25px;
+    font-size: 27px;
+}
+
+.pig li::marker {
+    content: "🐷";
+}
+
+.pig li:hover::marker {
+    content: "🍖";
+}
+
+.pig li:hover {
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active, .header {
+    color: #FB6938
+}
+
+.header, li , p, h3 {
+    font-family: 'Indie Flower', cursive, 'Courier New', Courier, monospaces;
+}
